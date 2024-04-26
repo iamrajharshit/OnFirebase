@@ -20,11 +20,11 @@ change in rule from false to true
 
 ## Get the Key
 - Click on Service Account it will redirect to a page. There again select service accounts, your account will be displayed, press on 3 dots and click manage keys.
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/copy%20the%20admin%20sdk%20code.png" title="Copy the Admin SDK file to your py app" alt="Copy the Admin SDK file to your py app" />&nbsp;
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/manage%20keys.png" title="Go to Manage Keys" alt="Go to Manage Keys" />&nbsp;
 - There we can add key and a file will be automatically downloaded.
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/copy%20the%20admin%20sdk%20code.png" title="Copy the Admin SDK file to your py app" alt="Copy the Admin SDK file to your py app" />&nbsp;
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/get%20json%20key.png" title="Get .json key" alt="Get .json key" />&nbsp;
 - Then just copy it to your project directory.
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/copy%20the%20admin%20sdk%20code.png" title="Copy the Admin SDK file to your py app" alt="Copy the Admin SDK file to your py app" />&nbsp;
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/downloaded%20key.png" title="Download the key" alt="Download the key" />&nbsp;
 
 ## Code
 - added that python config to your app.py
