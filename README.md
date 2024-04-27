@@ -2,16 +2,37 @@
 CRUD: Create Read Update Delete Using Python and Admin Firebase
 
 ## Create firebase app
+You'll need a Firebase project set up. If you don't have one, create one on the Firebase console.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/create%20an%20app.png" title="create an app on fire base" alt="create an app on fire base" />&nbsp; 
-## Create firestore database 
+
+- Here, we have created CRUD named web app.
+- Select web app.
+- Give a name.
+- Select hosting. 
+
+## Create firestore database
+Once app is created,
+- Go to Firestore Database
+- Create database
 
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/Firestore%20create%20db.png" title="Go to Firestore" alt="Go to Firestore" />&nbsp; 
 
+- Select Start in Production mode
+- Remember, once database is created will change the *allow read, write to true*.
+- Click on Create
+
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/creating%20db.png" title="create DataBase" alt="create DataBase" />&nbsp;
 
+Your Database will look like this,
+
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/database%20is%20ready.png" title="DataBase is ready" alt="DataBase is ready" />&nbsp;
-change in rule from false to true
+
+Once the database is created,
+- Go the _Rules_ inside the Fire database.
+- Change the *allow read, write to __true__*.
+- Click on _Publish_.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/change%20to%20true.png" title="Change to true" alt="Change to true" />&nbsp;
+
 ## Get Python config code
 - Go to project setting -> Service Accounts -> Python(We will get the config code)
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/project%20setting.png" title="Go to project settings" alt="Go to project settings" />&nbsp;
@@ -32,6 +53,7 @@ change in rule from false to true
 - pass the key
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/database%20code.png" title="Write a simple database code" alt="Write a simple database code" />&nbsp;
 - add a database
+
 ## Run
 - run the code
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/run%20the%20code%20.png" title="Run the code" alt="Run the Code" />&nbsp;
