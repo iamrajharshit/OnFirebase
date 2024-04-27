@@ -1,5 +1,7 @@
 # CRUD
-CRUD: Create Read Update Delete Using Python and Admin Firebase
+CRUD: Create Read Update Delete Using Python and Admin Firebase.
+- At first will create and connect to a firebase database in puthon.
+- Once connected, create a demo database to store values for status and task as keys.
 
 ## Steps to create and connect to a firebase database in python
 ### Create firebase app
