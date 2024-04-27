@@ -64,10 +64,26 @@ A file will be automatically downloaded.
 - Then just copy it to your project directory.
 
 ## Code
+
+Remember to download all the dependencies mentioned in `requirements.txt` on your python venv.
+
+```
+pip install -r requirements.txt
+```
+To learn about python venv, check out the tutorial on [python venv](https://youtu.be/Gl88lVQOYAY?si=eS2d1xIaj1JqP9Yd).
+
+Now added the dependencies to your app.py, here we have named our app.py as "firebase-authdemo.py".
+```
+import firebase_admin
+from firebase_admin import firestore
+from firebase_admin import credentials
+```
+
 Here, we have renamed the ***JSON*** file as ***serviceAccount***.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/pass%20to%20code%20.png" title="Pass the downloaded key" alt="Pass the downloaded key" />&nbsp;
 
-- Pass the key and initialize firebase_admin
+Inside the Python config code, 
+- Pass the key ***"serviceAccount.json"*** and initialize firebase_admin
 
 ```
 cred = credentials.Certificate("./serviceAccount.json")
