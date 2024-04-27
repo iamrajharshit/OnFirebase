@@ -1,6 +1,7 @@
 # CRUD
 CRUD: Create Read Update Delete Using Python and Admin Firebase
 
+# Steps to create and connect to a firebase database in python
 ## Create firebase app
 You'll need a Firebase project set up. If you don't have one, create one on the Firebase console.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/create%20an%20app.png" title="create an app on fire base" alt="create an app on fire base" />&nbsp; 
