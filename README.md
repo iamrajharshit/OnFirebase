@@ -1,8 +1,8 @@
 # CRUD
 CRUD: Create Read Update Delete Using Python and Admin Firebase
 
-# Steps to create and connect to a firebase database in python
-## Create firebase app
+## Steps to create and connect to a firebase database in python
+### Create firebase app
 You'll need a Firebase project set up. If you don't have one, create one on the Firebase console.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/create%20an%20app.png" title="create an app on fire base" alt="create an app on fire base" />&nbsp; 
 
@@ -11,7 +11,7 @@ You'll need a Firebase project set up. If you don't have one, create one on the 
 - Give a ***Name*** and **ID**.
 - Select your hosting ***Server*** and **Location**. 
 
-## Create firestore database
+### Create firestore database
 Once app is created,
 
 
@@ -38,7 +38,7 @@ Once the database is created,
 - Change the *allow read, write to __true__*.
 - Click on *__Publish__*.
 
-## Get Python config code
+### Get Python config code
 We will get the `python config` code.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/project%20setting.png" title="Go to project settings" alt="Go to project settings" />&nbsp;
 
@@ -51,7 +51,7 @@ Here, Admin SDK configuration snippet is available.
 - Copy the ***Python config code*** to your ***app.py*** on your local system.
 Then, click on ***Service Account*** it will redirect to a page.
 
-## Get the Key
+### Get the Key
 Now will get the key, after getting redirected to our Google Cloud, ***Service Account***. 
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/manage%20keys.png" title="Go to Manage Keys" alt="Go to Manage Keys" />&nbsp;
 
@@ -69,7 +69,7 @@ A file will be automatically downloaded.
 
 - Then just copy it to your project directory.
 
-## Code
+### Code
 
 Remember to download all the dependencies mentioned in `requirements.txt` on your python venv.
 
@@ -100,10 +100,10 @@ firebase_admin.initialize_app(cred)
 
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/database%20code.png" title="Write a simple database code" alt="Write a simple database code" />&nbsp;
 
-### Add a database.
+#### Add a database.
 Here, we have defined a dictionary named `data` that contains information about a task.
 
-### The dictionary has two key-value pairs:
+#### The dictionary has two key-value pairs:
 - **task**: The value is "washing," which presumably describes the task itself.
 - **status**: The value is "ToDO," likely indicating the current state of the task.
 
@@ -128,7 +128,7 @@ print('Document ID : ',doc_ref.id)
 - `.set(data)`: This method sets the data for the newly created document. The provided data dictionary is used to populate the fields within the document.
 - The` doc_ref.id` attribute holds the unique identifier assigned to the document by Firestore.
 
-## Run the code
+### Run the code
 
 Now, we run the firebase-authdemo.py file.
 
