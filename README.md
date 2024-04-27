@@ -26,16 +26,13 @@ Once app is created,
 - Remember, once database is created will change the *allow read, write to true*.
 - Click on Create
 
-
-
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/database%20is%20ready.png" title="DataBase is ready" alt="DataBase is ready" />&nbsp;
 
 Your Database will look like this,
-
+Once the database is created,
 
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/change%20to%20true.png" title="Change to true" alt="Change to true" />&nbsp;
 
-Once the database is created,
 - Go to _Rules_ inside the Fire database.
 - Change the *allow read, write to __true__*.
 - Click on _Publish_.
@@ -45,19 +42,40 @@ Once the database is created,
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/project%20setting.png" title="Go to project settings" alt="Go to project settings" />&nbsp;
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/copy%20the%20admin%20sdk%20code.png" title="Copy the Admin SDK file to your py app" alt="Copy the Admin SDK file to your py app" />&nbsp;
 
+- Copy the Python code to your app.py on your local system.
+Then, click on Service Account it will redirect to a page.
 
 ## Get the Key
-- Click on Service Account it will redirect to a page. There again select service accounts, your account will be displayed, press on 3 dots and click manage keys.
+Now will get key, after getting redirected to our Google Cloud, Service Account. 
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/manage%20keys.png" title="Go to Manage Keys" alt="Go to Manage Keys" />&nbsp;
-- There we can add key and a file will be automatically downloaded.
+
+- There again select service accounts, your account will be displayed.
+- Click on 3 dots and click manage keys.
+
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/get%20json%20key.png" title="Get .json key" alt="Get .json key" />&nbsp;
-- Then just copy it to your project directory.
+
+- Click on **_Add Key_**.
+- Select ***JSON*** as key type.
+- Click on Create.
+
+A file will be automatically downloaded.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/downloaded%20key.png" title="Download the key" alt="Download the key" />&nbsp;
 
+- Then just copy it to your project directory.
+
 ## Code
-- added that python config to your app.py
+Here, we have renamed the ***JSON*** file as ***serviceAccount***.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/pass%20to%20code%20.png" title="Pass the downloaded key" alt="Pass the downloaded key" />&nbsp;
-- pass the key
+
+- Pass the key and initialize firebase_admin
+
+```
+cred = credentials.Certificate("./serviceAccount.json")
+firebase_admin.initialize_app(cred)
+
+```
+
+
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/database%20code.png" title="Write a simple database code" alt="Write a simple database code" />&nbsp;
 - add a database
 
