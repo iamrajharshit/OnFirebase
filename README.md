@@ -143,6 +143,8 @@ Now, we run the firebase-authdemo.py file.
 
 In Firebase Firestore,`taskCollection` is a collection within your Firestore database. A collection is a container that groups related documents together. In this case, each document likely represents a task.
 
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/stored%20in%20firebase.png" title="Check on FireBase" alt="Check on FireBase" />&nbsp;
+
 - **Firestore**: A NoSQL database service offered by Firebase that allows you to store and retrieve data in a flexible and scalable manner.
 - **Collection**: A group of documents with a similar theme or purpose. Think of it like a folder in a filing cabinet that holds related documents.
 - **Document**: An individual unit of data within a collection, similar to a file in a folder. It contains fields (like key-value pairs) that represent the data for a specific task.
@@ -150,4 +152,3 @@ In Firebase Firestore,`taskCollection` is a collection within your Firestore dat
     - `status`: A string field that likely indicates the current state of the task (e.g., "ToDO," "In Progress," "Done").
     - `task`: A string field that describes the actual task itself (e.g., "washing," "groceries," "exercise").
 
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/stored%20in%20firebase.png" title="Check on FireBase" alt="Check on FireBase" />&nbsp;
