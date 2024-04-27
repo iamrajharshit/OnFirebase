@@ -12,26 +12,33 @@ You'll need a Firebase project set up. If you don't have one, create one on the 
 
 ## Create firestore database
 Once app is created,
+
+
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/Firestore%20create%20db.png" title="Go to Firestore" alt="Go to Firestore" />&nbsp; 
+
 - Go to Firestore Database
 - Create database
 
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/Firestore%20create%20db.png" title="Go to Firestore" alt="Go to Firestore" />&nbsp; 
+
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/creating%20db.png" title="create DataBase" alt="create DataBase" />&nbsp;
 
 - Select Start in Production mode
 - Remember, once database is created will change the *allow read, write to true*.
 - Click on Create
 
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/creating%20db.png" title="create DataBase" alt="create DataBase" />&nbsp;
 
-Your Database will look like this,
 
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/database%20is%20ready.png" title="DataBase is ready" alt="DataBase is ready" />&nbsp;
 
+Your Database will look like this,
+
+
+<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/change%20to%20true.png" title="Change to true" alt="Change to true" />&nbsp;
+
 Once the database is created,
-- Go the _Rules_ inside the Fire database.
+- Go to _Rules_ inside the Fire database.
 - Change the *allow read, write to __true__*.
 - Click on _Publish_.
-<img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/change%20to%20true.png" title="Change to true" alt="Change to true" />&nbsp;
 
 ## Get Python config code
 - Go to project setting -> Service Accounts -> Python(We will get the config code)
