@@ -41,12 +41,12 @@ Once the database is created,
 - Click on *__Publish__*.
 
 ### Get Python config code
-We will get the `python config` code.
+We will get the `python config` code for our app.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/project%20setting.png" title="Go to project settings" alt="Go to project settings" />&nbsp;
 
-- Select ***Project Settings*** under ***Project OVerview***.
+- Select ***Project Settings*** under ***Project Overview***.
 
-Here, Admin SDK configuration snippet is available.
+#### Here, Admin SDK configuration snippet is available.
 <img src="https://github.com/iamrajharshit/firebaseCRUD/blob/main/img/copy%20the%20admin%20sdk%20code.png" title="Copy the Admin SDK file to your py app" alt="Copy the Admin SDK file to your py app" />&nbsp;
 
 - Select ***python***.
